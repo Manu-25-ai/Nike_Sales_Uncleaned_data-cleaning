@@ -1,57 +1,73 @@
-# 🧹 Data Cleaning Project — (Nike_sales_uncleaned dataset)
+# 🧹 Nike Sales Data Cleaning Project
 
-### 🔍 Overview
-This project focuses solely on **data cleaning and preprocessing**. The original dataset contained missing values, inconsistent categories, unstructured numeric fields, and improperly formatted date values.
-The final result is a clean, structured dataset ready for analytics or ML tasks.
+### 📌 Overview
+This project focuses on cleaning and preprocessing Nike sales data to prepare it for analysis or machine learning.
 
----
-
-### 🗂 Dataset Tasks Completed
-
-| Task                           | Status |
-|--------------------------------|--------|
-| Handle missing values          | ✔     |
-| Clean numeric columns          | ✔     |
-| Standardize categorical values | ✔     |
-| Convert and format date column | ✔     |
-| Export cleaned dataset         | ✔     |
+### 🎯 Objectives
+- Handle missing values
+- Fix inconsistent date formats
+- Clean and standardize numeric and categorical variables
+- Export a clean and usable dataset
 
 ---
 
-### 🛠 Tools Used
+### 📂 Dataset
 
-- Python
-- Pandas
-- NumPy
-- Jupyter Notebook
-
----
-
-### 📁 Files Included
-
-- `Project_1.ipynb` — Notebook with full process  
-- `Cleaned_data.xls` — Final dataset  
-- `requirements.txt` — Dependencies  
+| Type | File |
+|------|------|
+| Raw Data | `data/Nike_Sales_Uncleaned.csv` |
+| Cleaned Data | `data/Cleaned_data.csv` |
 
 ---
 
-### 🧾 Before Cleaning
-![Before Cleaning](images/before_cleaning.png)
+### 🔧 Tools Used
+- Python (Pandas)
+
+---
+
+### 🔍 Before Cleaning
+
+<img src="images/before_cleaning.png" width="700">
+
+---
 
 ### 🧹 After Cleaning
-![After Cleaning](images/after_cleaning.png)
+
+<img src="images/after_cleaning.png" width="700">
+
+---
+
+### 📁 Repository Structure
+
+Nike_Sales_Uncleaned_data-cleaning/
+│
+├── data/
+│ ├── Nike_Sales_Uncleaned.csv
+│ └── Cleaned_data.csv
+│
+├── notebooks/
+│ └── Project_1.ipynb
+│
+├── images/
+│ ├── before_cleaning.png
+│ └── after_cleaning.png
+│
+└── reports/
+└── Project_1.pdf
 
 
 ---
 
-### 📌 Next Steps (optional)
+### 📌 Result
 
-- Perform EDA  
-- Apply ML models  
-- Create dashboard visualization  
+✔ Missing values handled  
+✔ Inconsistent formats fixed  
+✔ Exported ready-to-use cleaned dataset  
 
 ---
 
-### 📞 Contact
+### 🚀 Next Steps (Optional)
+- Exploratory data analysis
+- Build predictive models on cleaned dataset
+- Dashboard visualization
 
-If you'd like to collaborate or discuss improvements, feel free to reach out.
