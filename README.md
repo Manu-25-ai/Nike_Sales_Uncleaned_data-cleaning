@@ -35,6 +35,15 @@ The final result is a clean, structured dataset ready for analytics or ML tasks.
 
 ---
 
+### 🧾 Before Cleaning
+![Before Cleaning](images/before_cleaning.png)
+
+### 🧹 After Cleaning
+![After Cleaning](images/after_cleaning.png)
+
+
+---
+
 ### 📌 Next Steps (optional)
 
 - Perform EDA  
